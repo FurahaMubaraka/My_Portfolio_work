@@ -33,11 +33,12 @@ without any CSS or JavaScript, as required by the practical activity instruction
 https://www.figma.com/design/RoWUPyi5IUY0cAaKx8zqm9/Portfolio?node-id=0-1&t=Q8pzVYCnpXm2JNdQ-1
 ---
 ## Repository Link
-
+https://github.com/FurahaMubaraka/My_Portfolio_work.git
 ---
 ## Submission Details
 - **GitHub Repository:** Created and ready for access  
 - **Lecturer Invited:** ydiasniyonshuti@yahoo.fr  
 - **Figma Project:** Shared with lecturer for mockup review  
 My project screenshoot
+
 ![alt text](<Screenshot 2026-01-24 195342-1.png>) ![alt text](<Screenshot 2026-01-24 195217-1.png>) ![alt text](<Screenshot 2026-01-24 195235-1.png>) ![alt text](<Screenshot 2026-01-24 195250-1.png>) ![alt text](<Screenshot 2026-01-24 195306-1.png>) ![alt text](<Screenshot 2026-01-24 195318-1.png>) ![alt text](<Screenshot 2026-01-24 195329-1.png>)
