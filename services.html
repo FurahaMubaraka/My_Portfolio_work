@@ -4,58 +4,70 @@
     <meta charset="UTF-8">
     <link rel="icon" href="logo.jpeg">
     <title>Services</title>
+    <link rel="stylesheet" href="css/portfolio.css">
+    <link rel="stylesheet" href="css/service.css">
 </head>
 <body>
 
 <header>
     <nav>
-       <strong>Portfolio</strong> 
-        <a href="index.html">Home</a> |
-        <a href="about.html">About</a> |
-        <a href="services.html">Services</a> |
-        <a href="skills.html">Skills</a> |
-        <a href="media.html">Media</a> |
-        <a href="form.html">Form</a> |
-        <a href="contact.html">Contact</a>
+        <div class="Portfolio">
+            <strong>Portfolio</strong> 
+        </div>
+        <div class="Anchors">
+            <a href="index.html">Home</a> 
+            <a href="about.html">About</a> 
+            <a href="services.html">Services</a> 
+            <a href="skills.html">Skills</a> 
+            <a href="media.html">Media</a> 
+            <a href="form.html">Form</a> 
+            <a href="contact.html">Contact</a>
+        </div>
     </nav>
-    <hr>
 </header>
 
 <main>
-    <section>
-        <h2>What I Offer</h2>
-
-        <ul>
-            <li>HTML Website Development</li>
-            <li>Software Logic Design</li>
-            <li>IT Technical Support</li>
-        </ul>
-
-        <ol>
-            <li>Requirement Analysis</li>
-            <li>Development</li>
-            <li>Testing & Delivery</li>
-        </ol>
+    <section class="allhaveit">
+        <h1>What I Offer</h1>
+        <p>Comprehensive development and technocal support services tailored to your needs.</p>
     </section>
+    <section class="cards">
+        <h2>Services</h2>
 
-    <section>
-        <h3>Service Schedule</h3>
+        <div class="cardall">
+            <h1>HTML Website Development</h1>
+            <h1>Software Logic Design</h1>
+            <h1>IT Technical Support</h1>
+            <h1>Requirement Analysis</h1>
+        </div>
 
-        <table border="1">
-            <caption>Weekly Service Plan</caption>
+        <h3>Our Process</h3>
+        <div class="processes">
+            <div class="one">
+                <h1>01</h1>
+                <h3>Analysis</h3>
+                <p>understanding your Requirements</p>
+            </div>
+            <div class="two">
+                <h1>02</h1>
+                <h3>Development</h3>
+                <p>Building your solution</p>
+            </div>
+            <div class="three">
+                <h1>03</h1>
+                <h3>Testing & Delivery</h3>
+                <p>Quality assurance and deployment</p>
+            </div>
+        </div>
 
-            <colgroup>
-                <col>
-                <col>
-            </colgroup>
-
+        <h3>Weekly Service Plan</h3>
+        <table>
             <thead>
                 <tr>
                     <th>Service</th>
                     <th>Day</th>
                 </tr>
             </thead>
-
             <tbody>
                 <tr>
                     <td>Web Development</td>
@@ -66,18 +78,21 @@
                     <td>Friday</td>
                 </tr>
             </tbody>
-
-            <tfoot>
-                <tr>
-                    <td colspan="2">Contact me for more details</td>
-                </tr>
-            </tfoot>
         </table>
+
+        <div class="details">
+            <p>Want to discuss your Project Requirements?</p><br>
+            <a href="#">Contact me for more details</a>
+        </div>
+
     </section>
 </main>
 
 <footer>
-    <hr>
+    <div class="tagname">
+        <h4>Portfolio</h4>
+        <p>Software Developer & IT Student</p>
+    </div>
     <p><small>&copy; 2026 Furaha Mubaraka</small></p>
 </footer>
 

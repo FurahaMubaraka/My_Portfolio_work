@@ -4,47 +4,83 @@
     <meta charset="UTF-8">
     <link rel="icon" href="logo.jpeg">
     <title>Media</title>
+    <link rel="stylesheet" href="css/portfolio.css">
+    <link rel="stylesheet" href="css/media.css">
 </head>
 <body>
 
 <header>
     <nav>
-       <strong>Portfolio</strong> 
-        <a href="index.html">Home</a> |
-        <a href="about.html">About</a> |
-        <a href="services.html">Services</a> |
-        <a href="skills.html">Skills</a> |
-        <a href="media.html">Media</a> |
-        <a href="form.html">Form</a> |
-        <a href="contact.html">Contact</a>
+        <div class="Portfolio">
+            <strong>Portfolio</strong> 
+        </div>
+        <div class="Anchors">
+            <a href="index.html">Home</a> 
+            <a href="about.html">About</a> 
+            <a href="services.html">Services</a> 
+            <a href="skills.html">Skills</a> 
+            <a href="media.html">Media</a> 
+            <a href="form.html">Form</a> 
+            <a href="contact.html">Contact</a>
+        </div>
     </nav>
-    <hr>
 </header>
 
 <main>
-    <figure>
-        <img src="image_project.jpeg" width="200">
-        <figcaption>Project Screenshot</figcaption>
-    </figure>
-
-    <audio controls>
-        <source src="audio.mpeg">
-        <track kind="captions">
-    </audio>
-
-    <br><br>
-
-    <video controls width="300">
-        <source src="video.mp4">
-        <track kind="subtitles">
-    </video>
-
+    <section class="allhaveit">
+        <h1>Project Gallery</h1>
+        <p>A showcase of my recent projects and work across web development and graphic design.</p>
+    </section>
+    <section class="container">
+        <h2>Recent Projects</h2>
+        <div class="cards">
+            <div class="card">
+                <div class="top"></div>
+                <div class="bottom">
+                    <a href="#">My Project Screenshot</a><br>
+                    <h3>Graphic design using Photoshop</h3><br>
+                    <p>A professional project showcasing modern design and development</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="top2">
+                    <audio controls>
+                        <source src="audio.mpeg">
+                    </audio>
+                </div>
+                <div class="bottom">
+                    <a href="#">Audio Playing</a><br>
+                    <h3>Portfolio Website</h3><br>
+                    <p>A professional project showcasing modern design and development</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="top3">
+                    <video controls width="176">
+                        <source src="video.mp4">
+                    </video>
+                </div>
+                <div class="bottom">
+                    <a href="#">Video Playing</a><br>
+                    <h3>Portfolio Website</h3><br>
+                    <p>A professional project showcasing modern design and development</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="under">
+        <h1>Interested in My Work?</h1><br>
+        <p>Let's discuss your next project and see how I can help bring yout ideas to life.</p><br><br>
+        <a href="#">Get in Touch</a>
+    </section>
 </main>
 
 <footer>
-    <hr>
+    <div class="tagname">
+        <h4>Portfolio</h4>
+        <p>Software Developer & IT Student</p>
+    </div>
     <p><small>&copy; 2026 Furaha Mubaraka</small></p>
 </footer>
-
 </body>
 </html>

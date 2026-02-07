@@ -1,0 +1,93 @@
+h2{
+    color: rgb(42, 100, 218);
+    font-size: 25px;
+}
+.cards{
+    margin: 10vh auto 0vh auto;
+    width: 80%;
+}
+.cardall{
+    margin: 1vh 0vh 5vh 0vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+.cardall h1{
+    width: 100%;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+    padding: 35px 30px;
+    border-radius: 20px;
+    border: 1px solid cyan;
+    background-color: rgb(215, 255, 248);
+}
+h3{
+    font-size: 25px;
+}
+table{
+    margin: 3vh 0vh;
+    width: 100%;
+    overflow: hidden;
+    border-radius: 20px;
+    border-left: 1px solid rgb(192, 251, 251);
+    border-right: 1px solid rgb(192, 251, 251);
+    && thead{
+        background-color: rgb(219, 236, 255);
+    }
+    && tr{
+        height: 6vh;
+        text-align: left;
+    }
+    && th{
+        padding-left: 25px;
+    }
+    && td{
+        padding-left: 25px;
+        border-bottom: 1px solid rgb(192, 251, 251);
+        && a{
+            color: black;
+            text-decoration: none;
+        }
+    }
+}
+.processes{
+    display: flex;
+    gap: 50px;
+    margin: 10vh 0vh 20vh 0vh;
+}
+.processes .one{
+    width: 30%;
+    text-align: center;
+    && h1{
+        color: rgb(141, 204, 255);
+        font-size: 50px;
+    }
+}
+.processes .two{
+    width: 30%;
+    text-align: center;
+    && h1{
+        color: rgb(141, 204, 255);
+        font-size: 50px;
+    }
+}
+.processes .three{
+    width: 30%;
+    text-align: center;
+    && h1{
+        color: rgb(141, 204, 255);
+        font-size: 50px;
+    }
+}
+.details{
+    margin: 10vh 0vh;
+    text-align: center;
+    && a{
+        padding: 10px 30px;
+        background-color: rgb(38, 92, 207);
+        color: white;
+        text-decoration: none;
+        border-radius: 10px;
+    }
+}

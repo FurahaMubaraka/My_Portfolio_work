@@ -4,39 +4,47 @@
     <meta charset="UTF-8">
     <link rel="icon" href="logo.jpeg">
     <title>Contact Form</title>
+    <link rel="stylesheet" href="css/portfolio.css">
+    <link rel="stylesheet" href="css/form.css">
 </head>
 <body>
 
 <header>
     <nav>
-       <strong>Portfolio</strong> 
-        <a href="index.html">Home</a> |
-        <a href="about.html">About</a> |
-        <a href="services.html">Services</a> |
-        <a href="skills.html">Skills</a> |
-        <a href="media.html">Media</a> |
-        <a href="form.html">Form</a> |
-        <a href="contact.html">Contact</a>
+        <div class="Portfolio">
+            <strong>Portfolio</strong> 
+        </div>
+        <div class="Anchors">
+            <a href="index.html">Home</a> 
+            <a href="about.html">About</a> 
+            <a href="services.html">Services</a> 
+            <a href="skills.html">Skills</a> 
+            <a href="media.html">Media</a> 
+            <a href="form.html">Form</a> 
+            <a href="contact.html">Contact</a>
+        </div>
     </nav>
-    <hr>
 </header>
 
 <main>
+    <section class="allhaveit">
+        <h1>Get In Touch</h1>
+        <p>Fill out the form below to send me a message or inquire about my services.</p>
+    </section>
 <form>
-    <fieldset>
-        <legend>Client Information</legend>
+        <h1>Client Information</h1>
 
         <label>Full Name:</label>
-        <input type="text"><br><br>
+        <input type="text" placeholder="Your full name"><br><br>
 
         <label>Email:</label>
-        <input type="email"><br><br>
+        <input type="email" placeholder="your@email.com"><br><br>
 
         <label>Password:</label>
-        <input type="password"><br><br>
+        <input type="password" placeholder="Enter a password"><br><br>
 
         <label>Message:</label>
-        <textarea></textarea><br><br>
+        <textarea placeholder="Tell me about Your Project"></textarea><br><br>
 
         <label>Service Type:</label>
         <select>
@@ -45,14 +53,16 @@
                 <option>IT Support</option>
             </optgroup>
         </select><br><br>
-        <button type="submit">Send</button>
+        <button type="submit">Send Message</button>
 
-    </fieldset>
 </form>
 </main>
 
 <footer>
-    <hr>
+    <div class="tagname">
+        <h4>Portfolio</h4>
+        <p>Software Developer & IT Student</p>
+    </div>
     <p><small>&copy; 2026 Furaha Mubaraka</small></p>
 </footer>
 

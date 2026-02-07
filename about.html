@@ -2,123 +2,135 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel="icon" href="logo.jpeg">
-    <title>About Me</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - About Me</title>
+    <link rel="stylesheet" href="css/portfolio.css">
+    <link rel="stylesheet" href="css/about.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
 </head>
 <body>
 
 <header>
     <nav>
-        <strong>Portfolio</strong> 
-        <a href="index.html">Home</a> |
-        <a href="about.html">About</a> |
-        <a href="services.html">Services</a> |
-        <a href="skills.html">Skills</a> |
-        <a href="media.html">Media</a> |
-        <a href="form.html">Form</a> |
-        <a href="contact.html">Contact</a>
+        <div class="Portfolio">
+            <strong>Portfolio</strong> 
+        </div>
+        <div class="Anchors">
+            <a href="index.html">Home</a> 
+            <a href="about.html">About</a> 
+            <a href="services.html">Services</a> 
+            <a href="skills.html">Skills</a> 
+            <a href="media.html">Media</a> 
+            <a href="form.html">Form</a> 
+            <a href="contact.html">Contact</a>
+        </div>
     </nav>
-    <hr>
 </header>
-
 <main>
-    <article>
-        <h2>Who I Am</h2>
-
+    <section class="allhaveit">
+        <h1>Who I Am</h1>
         <p>
-            My name is <strong>Furaha Mubaraka</strong>.
-            I am a <em>software developer</em> and student at Rwanda Polytechnic.
-            I am passionate about creating technology solutions that are
-            <q>simple, accessible, and useful</q>.
+            My name is <strong>Furaha Mubaraka</strong>. I am a <span class="highlight">software developer</span> and student at Rwanda Polytechnic. 
+            I am passionate about creating technology solutions that are <q>simple, accessible, and useful</q>.
         </p>
+    </section>
+</main>
+<main class="portfolio-container">
+    <h2 class="section-label">Personal Information</h2>
+    <section class="info-grid">
+        <div class="card">
+            <label class="blue-text">Name</label>
+            <strong>Furaha Mubaraka</strong>
+        </div>
+        <div class="card">
+            <label class="pink-text">Registration No</label>
+            <strong>25RP01602</strong>
+        </div>
+        <div class="card">
+            <label class="pink-text">Email</label>
+            <strong>mfuraha1000@gmail.com</strong>
+        </div>
+        <div class="card">
+            <label class="blue-text">Institution</label>
+            <strong>Rwanda Polytechnic</strong>
+        </div>
+        <div class="card wide">
+            <label class="blue-text">Department</label>
+            <strong>Information Technology</strong>
+        </div>
+    </section>
 
-        <table>
-            <tr>
-                <td>
-                    <img src="profile.jpeg" alt="Profile Image" width="200">
-                </td>
-                <td>
-                    <address>
-                        Name: Furaha Mubaraka <br>
-                        Reg No: 25RP01602 <br>
-                        Email: <a href="mailto:mfuraha1000@gmail.com">mfuraha1000@gmail.com</a> <br>
-                        Institution: Rwanda Polytechnic <br>
-                        Department: Information Technology
-                    </address>
-                </td>
-            </tr>
-        </table>
+    <section class="content-block">
+        <h3>Work Experience</h3>
+        <div class="border-card">
+            <div class="card-row">
+                <strong class="blue-text">Internship at Tech Solutions Ltd</strong>
+                <span class="muted">Jan 2025 – Jun 2025</span>
+            </div>
+            <p>Assisted in developing internal web applications and debugging code.</p>
+        </div>
+        <div class="border-card">
+            <div class="card-row">
+                <strong class="blue-text">Freelance Web Developer</strong>
+                <span class="muted">Jul 2025 – Dec 2025</span>
+            </div>
+            <p>Built portfolio websites for small businesses and personal projects.</p>
+        </div>
+    </section>
 
-        <hr>
+    <section class="content-block">
+        <h3>Education</h3>
+        <div class="edu-list">
+            <div class="edu-item">
+                <strong>Rwanda Polytechnic (RP)</strong>
+                <div class="edu-other">
+                    <span>IT</span>
+                    <span class="badge">Current Student</span>
+                </div>
+            </div>
+            <div class="edu-item">
+                <strong>Advanced Level</strong>
+                <div class="edu-other">
+                    <span>GIKONKO TSS</span>
+                    <span class="badge">2024</span>
+                </div>
+            </div>
+            <div class="edu-item">
+                <strong>Ordinary Level</strong>
+                <div class="edu-other">
+                    <span>REGINA PACIS DE TUMBA</span>
+                    <span class="badge">2021</span>
+                </div>
+            </div>
+        </div>
+    </section>
 
-        <section>
-            <h3>Work Experience</h3>
-            <ul>
-                <li>
-                    <strong>Internship at Tech Solutions Ltd</strong> (Jan 2025 – Jun 2025) <br>
-                    Assisted in developing internal web applications and debugging code.
-                </li>
-                <li>
-                    <strong>Freelance Web Developer</strong> (Jul 2025 – Dec 2025) <br>
-                    Built portfolio websites for small businesses and personal projects.
-                </li>
-            </ul>
-        </section>
+    <section class="content-block">
+        <h3>Skills & Strengths</h3>
+        <div class="skills-container">
+            <div class="skill-item"><span class="check">✔</span> Web Development (HTML, CSS, JS)</div>
+            <div class="skill-item"><span class="check">✔</span> Software Problem Solving</div>
+            <div class="skill-item"><span class="check">✔</span> Database Management (SQL, Mongo)</div>
+            <div class="skill-item"><span class="check">✔</span> Graphic Design (Figma, Photoshop)</div>
+        </div>
+    </section>
 
-        <hr>
-
-        <section>
-            <h3>Education</h3>
-            <ol>
-                <li>
-                    <strong>Rwanda Polytechnic (RP)</strong> – Information Technology <br>
-                    Current student
-                </li>
-                <li>
-                    <strong>Advanced Level</strong> – GIKONKO Technical Secondary School <br>
-                    Completed: 2024
-                </li>
-                <li>
-                    <strong>Ordinary Level</strong> – Ecole Regina Pacis De Tumba <br>
-                    Completed: 2021
-                </li>
-                <li>
-                    <strong>Primary School</strong> – Ecole Primary De Tumba <br>
-                    Completed: 2017
-                </li>
-            </ol>
-        </section>
-
-        <hr>
-
-        <section>
-            <h3>Skills & Strengths</h3>
-            <ul>
-                <li>Web Development (HTML, CSS, JavaScript, NodeJs, ReactJs, Bootstrap V5)</li>
-                <li>Software Problem Solving & Debugging</li>
-                <li>Database Management (MySQL, SQLite , MongoDB)</li>
-                <li>Graphic Design (Figma, Photoshop)</li>
-                <li>Team Collaboration & Communication</li>
-            </ul>
-        </section>
-
-        <hr>
-
-        <section>
-            <h3>Favorite Quote</h3>
-            <blockquote cite="https://www.w3.org">
-                <p>“Programming isn’t about what you know; it’s about what you can figure out.”</p>
-                <cite>— Chris Pine —</cite>
-            </blockquote>
-        </section>
-
-    </article>
+    <section class="quote-area">
+        <h3>Favorite Quote</h3>
+        <blockquote>
+            “Programming isn’t about what you know; it’s about what you can figure out.”
+            <cite>— Chris Pine —</cite>
+        </blockquote>
+    </section>
 </main>
 
+
 <footer>
-    <hr>
+    <div class="tagname">
+        <h4>Portfolio</h4>
+        <p>Software Developer & IT Student</p>
+    </div>
     <p><small>&copy; 2026 Furaha Mubaraka</small></p>
 </footer>
-
 </body>
 </html>

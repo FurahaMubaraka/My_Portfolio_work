@@ -1,0 +1,120 @@
+
+.portfolio-container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.blue-text { color: #4a90e2; font-size: 0.8rem; text-transform: uppercase; display: block; }
+.pink-text { color: #d63384; font-size: 0.8rem; text-transform: uppercase; display: block; }
+.muted { color: #888; font-size: 0.85rem; }
+
+.info-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-bottom: 40px;
+}
+
+.card {
+    background-color: #f0f4ff;
+    padding: 20px 20px;
+    border-radius: 10px;
+    flex: 1 1 calc(50% - 20px); /* Two columns */
+}
+.card:nth-of-type(1){
+    border-left: 4px solid rgb(40, 63, 216);
+}
+.card:nth-of-type(2){
+    border-left: 4px solid rgb(105, 12, 114);
+}
+.card:nth-of-type(3){
+    border-left: 4px solid #d63384;
+}
+.card:nth-of-type(4){
+    border-left: 4px solid rgb(24, 142, 24);
+}
+.card:nth-of-type(5){
+    border-left: 4px solid rgb(74, 8, 122);
+}
+.card.wide {
+    flex: 1 1 100%;
+}
+
+h3 {
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-top: 40px;
+}
+
+.border-card {
+    border: 1px solid #eef0f5;
+    padding: 20px;
+    border-radius: 12px;
+    margin-bottom: 15px;
+}
+
+.card-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+
+.edu-item {
+    border-left: 3px solid rgb(44, 44, 209);
+    padding: 12px 20px;
+    border-bottom: 1px solid #f0f0f0;
+    display: flex;
+    gap: 30px;
+    margin: 2px 0px;
+    && strong{
+        width: 45%;
+    }
+}
+.edu-other{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+.badge {
+    background: #f0f4ff;
+    padding: 2px 10px;
+    border-radius: 20px;
+    font-size: 0.8rem;
+}
+
+.skills-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.skill-item {
+    background: #fff;
+    border: 1px solid #eee;
+    padding: 25px;
+    border-radius: 8px;
+}
+
+.check {
+    color: #4a90e2;
+    margin-right: 10px;
+}
+
+.quote-area {
+    text-align: center;
+    margin: 80px 0;
+}
+
+blockquote {
+    font-size: 1.2rem;
+    font-style: italic;
+    color: #555;
+}
+
+cite {
+    display: block;
+    margin-top: 15px;
+    font-style: normal;
+    color: #aaa;
+}

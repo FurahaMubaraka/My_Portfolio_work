@@ -4,86 +4,134 @@
     <meta charset="UTF-8">
     <link rel="icon" href="logo.jpeg">
     <title>Skills</title>
+    <link rel="stylesheet" href="css/portfolio.css">
+    <link rel="stylesheet" href="css/skills.css">
 </head>
 <body>
 
 <header>
     <nav>
-        <strong>Portfolio</strong> 
-        <a href="index.html">Home</a> |
-        <a href="about.html">About</a> |
-        <a href="services.html">Services</a> |
-        <a href="skills.html">Skills</a> |
-        <a href="media.html">Media</a> |
-        <a href="form.html">Form</a> |
-        <a href="contact.html">Contact</a>
+        <div class="Portfolio">
+            <strong>Portfolio</strong> 
+        </div>
+        <div class="Anchors">
+            <a href="index.html">Home</a> 
+            <a href="about.html">About</a> 
+            <a href="services.html">Services</a> 
+            <a href="skills.html">Skills</a> 
+            <a href="media.html">Media</a> 
+            <a href="form.html">Form</a> 
+            <a href="contact.html">Contact</a>
+        </div>
     </nav>
-    <hr>
 </header>
 
 <main>
-    <section>
+    <section class="allhaveit">
+        <h1>My Skills</h1>
+        <p>A comprehensive overview of my technical and creative capabilities.</p>
+    </section>
+    <section class="container">
         <h3>Software Development</h3>
-        <ul>
-            <li>HTML5, CSS3, JavaScript (basic)</li>
-            <li>Python programming</li>
-            <li>Git & GitHub version control</li>
-            <li>Database management (MySQL, SQLite)</li>
-            <li>Debugging & problem solving</li>
-        </ul>
-
-        <h4>Code Example:</h4>
+        <div class="cards">
+            <div class="unorderedlist">
+                <ul class="bulletin">
+                <li>HTML5, CSS3, JavaScript (basic)</li>
+                <li>Python programming</li>
+                <li>Git & GitHub version control</li>
+                <li>Database management (MySQL, SQLite)</li>
+                <li>Debugging & problem solving</li>
+            </ul>
+            </div>
+        <div class="card">
+            <h4>Code Example:</h4>
         <pre><code>
 function greet(name) {
     return "Hello, " + name + "!";
 }
 console.log(greet("Furah"));
         </code></pre>
+        </div>
+        </div>
     </section>
 
-    <section>
+    <section class="graphic">
         <h3>Graphic Design</h3>
-        <ol>
-            <li>Figma UI/UX design</li>
-            <li>Adobe Photoshop basics</li>
-            <li>Image editing & retouching</li>
-            <li>Vector graphics creation</li>
+        <ol class="circles">
+            <span>
+                <li></li>
+                Figma UI/UX design
+            </span>
+            <span>
+                <li></li>
+                Adobe Photoshop basics
+            </span>
+            <span>
+                <li></li>
+                Image editing & retouching
+            </span>
+            <span>
+                <li></li>
+                Vector graphics creation
+            </span>
         </ol>
     </section>
 
-    <section>
+    <section class="skills">
         <h3>Other Skills</h3>
-        <dl>
-            <dt>Communication</dt>
-            <dd>Team collaboration and client communication</dd>
-
-            <dt>Time Management</dt>
-            <dd>Planning and meeting deadlines</dd>
-
-            <dt>Data Analysis</dt>
-            <dd>Using Excel, Python, and SQL for reports</dd>
-        </dl>
+        <div class="others">
+            <div class="sklls">
+                <h3>Communicatoin</h3>
+                <p>Team collaboration and client communication</p>
+            </div>
+            <div class="sklls">
+                <h3>Time Management</h3>
+                <p>Planning and meeting deadlines</p>
+            </div>
+            <div class="sklls">
+                <h3>Data Analysis</h3>
+                <p>Using Excel, Python, and SQL for reports</p>
+            </div>
+        </div>
     </section>
 
-    <section>
+    <section class="levels">
         <h3>Skill Levels</h3>
-        <p>Software Development:</p>
+        <div class="skills_level">
+            <div class="allin">
+            <p>Software Development:</p>
+            <p>80%</p>
+        </div>
         <progress value="80" max="100">80%</progress><br><br>
-
-        <p>Graphic Design:</p>
+        
+        <div class="allin">
+            <p>Graphic Design:</p>
+            <p>70%</p>
+        </div>
         <progress value="70" max="100">70%</progress><br><br>
-
-        <p>Data Analysis:</p>
+        
+        <div class="allin">
+            <p>Data Analysis:</p>
+            <p>60%</p>
+        </div>
         <progress value="60" max="100">60%</progress>
+        </div>
     </section>
 
-    <section>
+    <section class="techcode">
         <h3>Code & Tech Knowledge</h3>
+        <div class="codes">
+            <div class="card">
+        Example of using <var>variables</var>:
+        <pre style="text-align: center;"><kbd>let age = 20;</kbd></pre>
+        </div>
+        <div class="card">
+            <p><strong>Sample output:</strong> <br> <samp>Hello World!</samp></p>
+        </div>
+        </div>
         <p>
-            Example of using <var>variables</var>:
-            <kbd>let age = 20;</kbd>
+            
         </p>
-        <p>Sample output: <samp>Hello World!</samp></p>
     </section>
 
     <aside>
@@ -93,7 +141,10 @@ console.log(greet("Furah"));
 </main>
 
 <footer>
-    <hr>
+    <div class="tagname">
+        <h4>Portfolio</h4>
+        <p>Software Developer & IT Student</p>
+    </div>
     <p><small>&copy; 2026 Furaha Mubaraka</small></p>
 </footer>
 

@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+header{
+    width: 100%;
+    padding: 10px 150px;
+    border-bottom: 1px solid rgb(87, 85, 85);
+    && nav{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        && .Portfolio{
+            font-size: 1.2rem;
+            color: rgb(60, 124, 207);
+        }
+    }
+}
+header nav .Anchors{
+    display: flex;
+    gap: 15px;
+}
+header nav .Anchors a{
+    font-size: 14px;
+    color: rgb(113, 113, 113);
+    text-decoration: none;
+    padding: 0px 0px 5px 0px;
+}
+header nav .Anchors a:hover{
+    color: rgb(27, 90, 173);
+    border-bottom: 2px solid rgb(29, 29, 255);
+}
+main .allhaveit{
+background-color: rgb(227, 252, 254);
+ padding: 50px 150px;
+ && h1{
+    color: rgb(21, 90, 164);
+    font-size: 40px;
+ }
+
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid rgb(93, 92, 92);
+    padding: 20px  150px;
+    font-size: 14px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
