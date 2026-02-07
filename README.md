@@ -30,7 +30,7 @@ without any CSS or JavaScript, as required by the practical activity instruction
 
 ---
 ## Figma Link
-https://www.figma.com/design/RoWUPyi5IUY0cAaKx8zqm9/Portfolio?node-id=0-1&t=Q8pzVYCnpXm2JNdQ-1](https://www.figma.com/design/RoWUPyi5IUY0cAaKx8zqm9/Portfolio?node-id=15-2&t=Onbih5dy5cyukLkZ-0)
+https://www.figma.com/design/RoWUPyi5IUY0cAaKx8zqm9/Portfolio?node-id=0-1&t=Onbih5dy5cyukLkZ-1
 --- 
 My project screenshoot
 <img width="1920" height="1080" alt="Screenshot (9)" src="https://github.com/user-attachments/assets/9418e1c4-802b-4f95-b4e4-60d271e9503f" />
@@ -42,3 +42,4 @@ My project screenshoot
 <img width="1920" height="1080" alt="Screenshot (12)" src="https://github.com/user-attachments/assets/6f81ffc3-f13d-4aed-ab28-84955ccbfc32" />
 <img width="1920" height="1080" alt="Screenshot (11)" src="https://github.com/user-attachments/assets/f2d29ca7-242b-4f27-83b3-b0d1d17ea953" />
 <img width="1920" height="1080" alt="Screenshot (10)" src="https://github.com/user-attachments/assets/3c0c6b70-8096-4444-a87a-388fd4939b5c" />
+
